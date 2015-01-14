@@ -8,8 +8,6 @@ using std::endl;
 using std::terminate;
 using std::ifstream;
 
-using namespace Core;
-
 string ShaderLoader::readShader(char *filename) {
 	string shaderCode;
 
